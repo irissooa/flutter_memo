@@ -1,9 +1,7 @@
 # **Flutter memo app**
-> 출처: https://github.com/VALERIO-CALCAGNI/lerionote/tree/master 
-
 
 ### Summary
-1. [flutter memo app](#1---flutter memo app)
+1. [flutter memo app](#1---flutter_memo_app)
 2. [사용 방법](#2---사용-방법)
 3. [프로젝트 구조](#3---프로젝트-구조)
 
@@ -82,4 +80,4 @@
 
 ```
 
-
+> 참고: https://github.com/VALERIO-CALCAGNI/lerionote/tree/master 
