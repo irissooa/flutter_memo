@@ -18,10 +18,10 @@ List<Color> kColorList = [
   kYellow
 ];
 
-const kDarkColor1 = Color(0xFF303030);
-const kDarkColor2 = Color(0xFF555555);
-const kDarkColor3 = Color(0xFF919191);
-const kDarkColor4 = Color(0xFFC6C6C6);
+const kDarkColor1 = Color(0xFF003300);
+const kDarkColor2 = Color(0xFF009900);
+const kDarkColor3 = Color(0xFF66FF66);
+const kDarkColor4 = Color(0xFFCCFFCC);
 
 const kHeaderWhiteTitle =
     TextStyle(fontSize: 35, fontWeight: FontWeight.bold, color: Colors.white);
