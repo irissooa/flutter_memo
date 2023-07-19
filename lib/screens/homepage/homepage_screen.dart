@@ -51,7 +51,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
           ),
         ),
         floatingActionButton: FloatingActionButton(
-          backgroundColor: kYellow,
+          backgroundColor: kGreen,
           elevation: 0,
           child: const Icon(Icons.add),
           onPressed: () async {

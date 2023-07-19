@@ -13,8 +13,8 @@ class SingleNote extends StatelessWidget {
   final GestureTapCallback? onTap;
   const SingleNote(
       {Key? key,
-      this.title = "titolo",
-      this.content = "contenuto",
+      this.title = "제목",
+      this.content = "내용",
       this.color = 0,
       this.onTap,
       required this.id,

@@ -94,7 +94,7 @@ class _EditAddNoteScreenState extends State<EditAddNoteScreen> {
           color: kDarkColor1,
         ),
         elevation: 0,
-        backgroundColor: kYellow,
+        backgroundColor: kDarkColor2,
         onPressed: () {
           if (_content.text.isEmpty) {
             ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -108,6 +108,14 @@ class _EditAddNoteScreenState extends State<EditAddNoteScreen> {
         },
       ),
       appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          color: kDarkColor2, // 뒤로가기 버튼 색상 설정
+          onPressed: () {
+            // 뒤로가기 버튼을 눌렀을 때 실행될 동작
+            Navigator.pop(context);
+          },
+        ),
         backgroundColor: Colors.transparent,
         elevation: 0,
         actions: [
@@ -118,6 +126,7 @@ class _EditAddNoteScreenState extends State<EditAddNoteScreen> {
                 if (widget.note != null)
                   IconButton(
                     icon: const Icon(Icons.delete),
+                    color: kDarkColor2,
                     onPressed: () async {
                       showDialog(
                           context: context,
